@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Large raw data - keep derived results, not raw dumps
+60_TEST_DATA/raw/*.bin
+60_TEST_DATA/raw/*.tdms
+
+# Secrets
+.env
+*.key
+
+# Third-party copyrighted material - NOT redistributed.
+# Raw verbatim scrapes of Richard Nakka's Experimental Rocketry Site
+# (nakka-rocketry.net), retrieved via Wayback Machine. Kept locally for
+# reference only; the club's own attributed summaries live in
+# Technical_Reference_Nakka.md and 80_REFERENCE/nakka-technical-reference.md.
+nakka_src/
+80_REFERENCE/nakka_source_text/
